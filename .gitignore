@@ -1,0 +1,45 @@
+# dependencies and builds
+node_modules/
+dist/
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# big or generated backend data (not for git)
+backend/generated/
+backend/rag_store/
+backend/chroma*/
+backend/models/
+backend/weights/
+backend/outputs/
+backend/data/voices/clones/
+backend/data/code_projects/*/
+backend/voice_models/*.onnx
+backend/gfpgan/weights/
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.ckpt
+*.bin
+*.gguf
+*.zip
+*.wav
+*.mp3
+
+# dev-only patch scripts and backups
+*.bak*
+patch_*.py
+apply_*.py
+phase*.sh
+*-patch.sh
+*-hotfix*.sh
+*-fix.sh
+teacher-*.sh
+backup-*.sh

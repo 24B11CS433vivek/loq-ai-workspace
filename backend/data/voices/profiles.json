@@ -1,0 +1,37 @@
+[
+  {
+    "id": "vijay",
+    "name": "vijay",
+    "sample_path": "data/voices/vijay.wav",
+    "sample_seconds": 19.4,
+    "created_at": "2026-09-10T11:51:24.885137+00:00"
+  },
+  {
+    "id": "trump",
+    "name": "trump",
+    "sample_path": "data/voices/trump.wav",
+    "sample_seconds": 60.0,
+    "created_at": "2026-09-10T12:26:56.064280+00:00"
+  },
+  {
+    "id": "modi",
+    "name": "modi",
+    "sample_path": "data/voices/modi.wav",
+    "sample_seconds": 29.0,
+    "created_at": "2026-09-10T13:01:30.936619+00:00"
+  },
+  {
+    "id": "k",
+    "name": "k",
+    "sample_path": "data/voices/k.wav",
+    "sample_seconds": 42.0,
+    "created_at": "2026-09-10T13:08:19.965644+00:00"
+  },
+  {
+    "id": "prabhas",
+    "name": "prabhas",
+    "sample_path": "data/voices/prabhas.wav",
+    "sample_seconds": 22.5,
+    "created_at": "2026-09-11T07:56:38.212275+00:00"
+  }
+]

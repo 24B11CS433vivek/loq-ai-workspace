@@ -1,0 +1,11 @@
+[
+  {
+    "id": "72d567933ad5",
+    "name": "Coding assistant",
+    "model": "qwen2.5-coder:7b",
+    "system_prompt": "You are a focused coding assistant. Be concise.",
+    "enabled_tools": [
+      "code"
+    ]
+  }
+]

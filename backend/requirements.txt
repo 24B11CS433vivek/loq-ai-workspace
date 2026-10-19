@@ -1,0 +1,37 @@
+fastapi
+uvicorn[standard]
+pypdf
+python-docx
+openpyxl
+python-pptx
+python-multipart
+chromadb
+httpx
+pandas
+matplotlib
+reportlab
+trafilatura
+youtube-transcript-api
+
+# Creative Studio enhance chain (backend/routers/image.py). Not pinned
+# here because torch/onnxruntime need the GPU-specific build for your
+# card -- install these separately, in this order, before running:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   pip install onnxruntime-gpu
+#   pip install gfpgan realesrgan basicsr rembg
+# If you skip onnxruntime-gpu (CPU-only box), `pip install onnxruntime`
+# instead -- everything in image.py already falls back to CPU on its own.
+
+# Browser automation mode (backend/routers/browser.py, browser_controller.py)
+playwright
+
+# Conversion Mode (backend/routers/convert.py)
+Pillow
+pillow-heif    # optional -- only needed for HEIC (iPhone photo) input
+cairosvg       # optional -- only needed for SVG -> PNG/JPG rasterization
+# System binaries, not pip packages -- install via your OS package
+# manager if you want that conversion pair to work:
+#   ffmpeg           (audio conversions, video -> audio extraction)
+#   pandoc           (md <-> docx <-> txt)
+#   libreoffice      (docx -> pdf, provides the `soffice` binary)
+#   poppler-utils    (pdf -> images, provides `pdftoppm`)
